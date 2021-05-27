@@ -1,11 +1,16 @@
+main {
+    position: relative;
+    display: block;
+    margin-top: 150px;
+}
 
 body {
     font-family: Lucida Grande, "Arial", sans-serif;
     border-style: solid;
     background-color: hsl(74, 95%, 93%);
     border-color: darkgreen;
-    margin-top: 0px;
-    
+    margin-top: 0;
+
 }
 
 h1 {
@@ -23,10 +28,9 @@ h1 {
     padding-top: 30px;
     padding-right: 15px;
     */
-    margin-top: 0px;
-    /* om het te laten scrollen, but it f's the rest up?
+    margin-top: 0;
     position: fixed;
-     */
+    z-index: 1;
 
 
 }
@@ -38,6 +42,7 @@ h1 {
     margin: 20px;
     padding: 10px;
     border-radius: 10px;
+
 
 }
 
