@@ -1,0 +1,63 @@
+
+body {
+    font-family: Lucida Grande, "Arial", sans-serif;
+    border-style: solid;
+    background-color: hsl(74, 95%, 93%);
+    border-color: darkgreen;
+    margin-top: 0px;
+    
+}
+
+h1 {
+    color: white;
+    background-color: hsl(63, 56%, 38%);
+    border: 3px dashed black;
+    /*instead of putting them all seperate
+    border-style: dashed;
+    border-color: #0a0707;
+     */
+    padding: 30px 15px;
+    /*instead of
+    padding-left: 15px;
+    padding-bottom: 35px;
+    padding-top: 30px;
+    padding-right: 15px;
+    */
+    margin-top: 0px;
+    /* om het te laten scrollen, but it f's the rest up?
+    position: fixed;
+     */
+
+
+}
+
+.boxes {
+    border-style: inset;
+    background-color: hsl(63, 56%, 80%);
+    border-color: hsl(64, 92%, 28%);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.circle-one {
+    background-color: hsl(23, 100%, 65%);
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 100px;
+    filter: drop-shadow(2px 2px 2px #777);
+}
+
+.circle-two {
+    background-color: hsl(23, 100%, 65%);
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px #0a0707;
+
+}
